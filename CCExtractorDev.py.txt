@@ -1,0 +1,15 @@
+count = 0
+backwardsName = []
+for x in range(0, 10):
+	print('GCI is great')
+	count += 1
+name = input('What is your name? Enter it here!')
+print('Hello, ' + name + '! Pleased to meet you!')
+count = 0
+name = list(name)
+for x in name:
+	backwardsName.insert(0, x)
+	count += 1
+print('Did you know that your name backwards is ' + ''.join(backwardsName) + '? Crazy!')
+
+	
